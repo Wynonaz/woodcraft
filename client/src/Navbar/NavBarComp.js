@@ -10,11 +10,12 @@ export default class NavBarComp extends React.Component{
     render(){
         return(
             <ul style={{
-                height:'60px', 
-                background:'#ddd', 
-                display:'flex',
+/*                 display:'flex',
                 alignItems:'center',
-                justifyContent:'space-around'
+                justifyContent:'space-around',
+                clear: 'both', */
+                position: 'sticky',
+                top: 0,
             }}>
                 <li>
                     <NavLink to="/"
